@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x:hidden;
+}
+/* Responsive Background Image */
+.bg-image { 
+    width: 100%; 
+    height: 100vh; 
+    background-image: linear-gradient(to top, rgba(125, 12, 12, 0), rgb(0, 0, 0)),url('back12.jpg'); 
+    background-size:100% 100%;  
+    background-repeat: no-repeat;
+} 
+/* Responsive Background Image */
+
+/* content inside landing page */
+.container-md{
+    width:100%;
+    height:100%;
+    /* background-color: rgb(17, 24, 24); */
+}
+.container-md .content {
+position:relative;
+background-color: rgba(58, 50, 45, 0.4);
+width:640px;
+height:300px;
+top:50px;
+left:95px;
+border-style:ridge;
+border-color: rgba(60, 54, 50, 0.4);
+border-radius: 50px;
+border-color: rgb(143, 98, 46);
+}
+/* .container-md .col-sm-12 {
+    position:relative;
+    background-color: rgba(58, 50, 45, 0.4);
+    width:640px;
+    height:300px;
+    top:50px;
+    left:95px;
+    border-style:ridge;
+    border-color: rgba(60, 54, 50, 0.4);
+    border-radius: 50px;
+    border-color: rgb(143, 98, 46);
+    } */
+.content-heading{
+    font-size: 45px;
+    color:rgba(255, 159, 95, 0.812);
+    text-align: center;
+    font-family: cursive;
+    letter-spacing: 1.5px;
+    /* font-family: Garamond, serif; */
+    font-family: 'Brush Script MT', cursive;
+}
+.content-style{
+    font-size: 14px;
+    color:rgb(191, 200, 200);
+    text-shadow: 50px;
+    text-align: center;
+    padding:5px;
+
+    
+}
+.content-style-author{
+/* text-align: center; */
+color: rgb(208, 206, 201);
+padding-left: 490px;
+}
+.button{
+    /* padding-top:60px; */
+    /* padding-left: 500px; */
+    /* background-color: rgb(109, 94, 94); */
+    margin-top:80px;
+    padding-left:130px;
+    /* padding-right: 50px; */
+}
+.button .btn-color {
+    background-color: rgb(162, 93, 13);
+    color: rgb(20, 16, 17);
+    font-style:oblique;
+    font-weight: 700;
+    border-style: inset;
+    border-color: rgb(237, 236, 236);
+    border-radius: 50px;
+    font-size: 18px;
+}
+/* content inside landing page */
+
